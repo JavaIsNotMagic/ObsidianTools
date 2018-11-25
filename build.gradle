@@ -20,7 +20,6 @@ apply plugin: 'forge'
 version = "1.7.10-1.0.34"
 group= "com.haxium.basicmod.obsidian.armor" 
 archivesBaseName = "ObsidianTools"
-defaultOutputDir = file("releases")
 
 minecraft {
     version = "1.7.10-10.13.4.1558-1.7.10"
