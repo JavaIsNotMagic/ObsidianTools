@@ -20,6 +20,7 @@ public ItemStack getIconItemStack(){
 		// Here the Name
 		return "HaxCraft Blocks";
 		}
+	//This code satisfies eclipse. It has nothing to do with the mod
 	@Override
 	@SideOnly(Side.CLIENT)
 	public Item getTabIconItem() {

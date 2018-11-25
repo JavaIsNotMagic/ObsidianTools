@@ -113,6 +113,12 @@ public class ObsidianArmor {
 				"D F",
 				'A', ObsidianArmor.obsidian_ingot, 'C', ObsidianArmor.obsidian_ingot, 'D', ObsidianArmor.obsidian_ingot, 'F', ObsidianArmor.obsidian_ingot
 		);
+		GameRegistry.addRecipe(new ItemStack(Blocks.obsidian),
+			"AAA",
+			"AAA",
+			"AAA",
+			'A', ObsidianArmor.obsidian_ingot
+		);
 		//Smelting Recipes
 		GameRegistry.addSmelting(ObsidianArmor.obsidite_ore, new ItemStack(ObsidianArmor.obsidian_ingot), 5F);
 	}

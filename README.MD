@@ -1,8 +1,8 @@
 # ObsidianTools
 
 DOWNLOADING OBSIDIANTOOLS
-You will find the latest stable release of ObsidianTools under releases/ObisidianTools.jar, just download that file, and you're all set!
-
+You will find the latest stable release of ObsidianTools under build/libs/ObisidianTools-1.0.34.jar, just download that file, and you're all set!
+Note: Ignore the version naming, its irelevant it's used to track who built the mod out of the dev team
 INSTALLING
 
 Linux
