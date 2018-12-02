@@ -25,10 +25,8 @@ public class ObsidianArmorEventHandler implements IWorldGenerator {
 			addOreSpawn(ObsidianArmor.obsidite_ore, 0, Blocks.stone, world, random, x, z, 16, 16, 5 + random.nextInt(10), 4, 20, 60);
 		}
 		private void generateEnd(World world, Random random, int x, int z) {
-			addOreSpawn(ObsidianArmor.obsidite_ore, 0, Blocks.stone, world, random, x, z, 16, 16, 5 + random.nextInt(10), 4, 20, 60);
 		}
 		private void generateNether(World world, Random random, int X, int z) {
-			addOreSpawn(ObsidianArmor.obsidite_ore, 0, Blocks.stone, world, random, x, z, 16, 16, 5 + random.nextInt(10), 4, 20, 60);
 		}
 		public void addOreSpawn(Block block, int metadata, Block target, World world, Random random, int blockXPos, int blockZPos, int maxX, int maxZ, int maxVeinSize, int chancesToSpawn, int minY, int maxY) {
 			assert maxY > minY: "The maximum value must be greater than that of the minimum";
